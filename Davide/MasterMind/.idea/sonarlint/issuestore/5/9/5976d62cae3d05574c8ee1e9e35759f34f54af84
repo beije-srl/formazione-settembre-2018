@@ -1,0 +1,16 @@
+
+Rsquid:S1197"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™úÒ†
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢ã„ 
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ãªûèüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒßË¬
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢ã„ 
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŠÆªôÿÿÿÿÿ
+Bsquid:S1481"-Remove this unused "feedback" local variable.(™úÒ†
+csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÚöË‰
+Qsquid:S1854"<Remove this useless assignment to local variable "feedback".(™úÒ†
