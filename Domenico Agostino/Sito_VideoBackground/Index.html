@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="stile.css" type="text/css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+<link rel="stylesheet"
+	href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+	integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet"
+	href="https://code.getmdl.io/1.3.0/material.deep_orange-orange.min.css" />
+<link rel="stylesheet"
+	href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+	type="text/css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="Script.js"></script>
+<meta charset="ISO-8859-1">
+</head>
+
+<body data-ng-app="Lista_Spesa" ng-controller="headerController">
+	<div class="video-header wrap">
+		<div class="video">
+			<video playsinline="playsinline" autoplay="autoplay" muted="muted"
+				loop="loop" class="adattavideo">
+				<source src="Img_Video/Video.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div
+			class="overlay col d-flex align-items-center justify-content-center">
+			<div class="contenuto">
+				<div class="card text-center">
+					<div class="card-body">
+						<h2 class="card-title">
+							<div class="typo-styles__demo mdl-typography--display-1">PRODOTTI</div>
+						</h2>
+
+						<!-- > INPUT NOME -->
+						<form action="#">
+							<div
+								class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<input class="mdl-textfield__input" type="text" id="sample3"
+									ng-model="n"> <label class="mdl-textfield__label"
+									for="sample3">NOME</label>
+							</div>
+						</form>
+
+						<!-- > INPUT QUANTITÀ -->
+						<form action="#">
+							<div
+								class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<input class="mdl-textfield__input" type="text" id="sample3"
+									ng-model="q"> <label class="mdl-textfield__label"
+									for="sample3">QUANTITÀ</label>
+							</div>
+						</form>
+
+						<!-- > INPUT PREZZO -->
+						<form action="#">
+							<div
+								class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<input class="mdl-textfield__input" type="text" id="sample3"
+									ng-model="p"> <label class="mdl-textfield__label"
+									for="sample3">PREZZO</label>
+							</div>
+						</form>
+
+						<!-- > INPUT DESCRIZIONE -->
+						<form action="#">
+							<div
+								class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<input class="mdl-textfield__input" type="text" id="sample3"
+									ng-model="d"> <label class="mdl-textfield__label"
+									for="sample3">DESCRIZIONE</label>
+							</div>
+						</form>
+					</div>
+
+					<button
+						class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+						type="button" ng-click="settaNomi()" style="margin-top: 3%;">
+						<div class="typo-styles__demo mdl-typography--title">SETTA</div>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

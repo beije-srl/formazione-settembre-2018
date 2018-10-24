@@ -1,0 +1,62 @@
+
+@media screen and (min-width: 601px) {
+	.carattere1 {
+		font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1;
+		letter-spacing: .02em;
+		color: #000000;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.carattere1 {
+		font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+		font-size: 11px;
+		font-weight: 500;
+		line-height: 1;
+		letter-spacing: .02em;
+		color: #000000;
+	}
+}
+
+.video-header {
+  display : flex;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+
+.wrap{
+	max-width: 960;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: auto;
+	text-align: center;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay{
+	widht: 100vw;
+	position: absoulute;
+	top:0;
+	left:0;
+}
+
+.contenuto{
+	z-index: 2;
+}
+
+.adattavideo{
+	object-fit : fill;
+}
+
