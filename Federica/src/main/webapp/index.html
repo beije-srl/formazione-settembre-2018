@@ -1,0 +1,45 @@
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body data-ng-app="" ng-init="nomi=['Luigi','Domenico','Davide','Bob']">
+
+<!-- stampare l'imput -->
+	<input type="text" data-ng-model="nome">
+	<h2>ciao</h2> <h2 data-ng-bind="nome"></h2>
+
+<!-- metodo alternativo -->
+	<input type="text" data-ng-model="nome2">
+	<h2>salve</h2> <h2>{{nome2}}</h2>
+	
+	
+	<input type="text" data-ng-click="nome()">
+	<h2>click</h2> <h2>{{nome()}}</h2>
+	
+<h2>Hello World!</h2>
+
+
+<!-- ordina in ordine alfabetico -->
+	<ul>
+		<li ng-repeat="nomeCorrente in nomi | orderBy">{{nomeCorrente}}</li>
+	</ul>
+
+
+<!-- uppercase, stampa tutto maiuscolo-->
+	<ul>
+		<li ng-repeat="nomeCorrente in nomi | orderBy">{{nomeCorrente | uppercase}}</li>
+	</ul>
+
+<!-- filtra in base a quello che ricerchi(in base alle iniziali/barra di ricerche\+)-->
+	<ul>
+		<li ng-repeat="nomeCorrente in nomi | orderBy | filter : nome">{{nomeCorrente}}</li>
+	</ul>
+
+
+
+</body>
+
+</html>

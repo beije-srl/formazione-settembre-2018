@@ -1,0 +1,38 @@
+.container{
+	height: 200px;
+	width: 900px;
+	border:solid;
+	overflow:hidden;
+	margin:auto;
+	
+}
+.str{
+	width: 300%;
+    height: 100%;
+    animation-name: scorri;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+}
+
+@keyframes scorri{
+	from{
+	margin-left:-100%;
+	}
+	to{
+	margin-right:-200%;
+	
+	}
+}
+.a{
+	background-color: black;
+    width: 300px;
+}
+.b{
+	background-color: blue;
+    width: 300px;
+}
+.c{
+	background-color: red;
+    width: 300px;
+}

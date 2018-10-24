@@ -1,0 +1,72 @@
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.titolo{
+	
+    background-color: #71a8b1;
+    color: white;
+    text-align: center;
+    margin-bottom:6%;
+}
+
+.campi{
+    padding: 6%;
+    border: solid #f5f0f047;
+}
+
+.putin{
+	text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.bottoni{
+	text-align: center;
+    margin-top: 7%;
+}
+
+.tabella{
+	width:100%;
+}
+.tabb{
+	width: 50%;
+    margin-left: 20%;
+}
+table{
+	width:90%;
+}
+td{
+	
+    padding: 2%;
+    background-color: #257582;
+    color: white;
+    text-align: center;
+}
+input{
+	border-radius: 5px;
+    border-color: #e4e4e430;
+}
+.flecs{
+	display: flex;
+    margin-top: 3%;
+    width: 60%;
+    margin: auto;
+}
+.spazio{
+	width: 30%
+}
+.tdc{
+	background-color: #fdfdfd;
+    color: black;
+    border: solid 1px #709398;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+h3{
+	color: #484747;
+    text-align:center;
+}
