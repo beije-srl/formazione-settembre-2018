@@ -1,0 +1,67 @@
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="scripttabella.js"></script>
+<link rel="stylsheet" type="text/css" href="acaso.css">
+
+
+
+</head>
+<body data-ng-app="Market" data-ng-controller="prodotti">
+
+
+
+
+	<p class="titolozzo">Lista
+		prodotti
+	</p>
+
+
+
+		
+		<div>
+			<div>
+				Nome <input type="text" ng-model="nome" placeholder="Inserire nome">
+			</div>
+			<div>
+				Prezzo <input type="number" ng-model="prezzo"
+					placeholder="Inserire prezzo">
+			</div>
+			<div>
+				Quantita <input type="number" ng-model="quantita"
+					placeholder="Inserire quantita">
+				
+			</div>
+
+			<div>
+				Descrizione <input type="text" ng-model="descrizione"
+					placeholder="Inserire descrizione">
+			</div>
+		
+			<div>
+				<button ng-click="inserisciValore()">Salva valori</button>
+				<button ng-click="cancella()">Cancella</button>
+			</div>
+		
+
+		</div>
+		
+		<div class="separa">
+			<table >
+
+					<tr>
+						<td ng-repeat="i in inserimento">{{i}}</td>
+					</tr>
+					<tr ng-repeat="m in matrice track by $index">
+						<td>{{m[0]}}</td>
+						<td>{{m[1]}}</td>
+						<td>{{m[2]}}</td>
+						<td>{{m[3]}}</td>
+					</tr>
+				
+			</table>
+		</div>
+		
+</body>
+</html>

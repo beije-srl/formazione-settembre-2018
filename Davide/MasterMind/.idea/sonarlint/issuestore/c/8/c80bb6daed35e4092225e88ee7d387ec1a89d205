@@ -1,0 +1,23 @@
+
+\squid:S1192"GDefine a constant instead of duplicating this literal "\u23FA" 6 times.(ßªœÔ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î§ëïøÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î§ëïøÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™úÒ†
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßªœÔ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶Æìý
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÁõÜ¼ùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹Ã†èûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Í»Ë§
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â‘ŒÊ
+Vsquid:S1126"AReplace this if-then-else statement by a single return statement.(ÁÀÇû
+Csquid:S1481")Remove this unused "sum1" local variable.(èÅ£÷üÿÿÿÿ
+Csquid:S1481")Remove this unused "sum2" local variable.(”ŸÆ©ùÿÿÿÿ
+.squid:S1700"Rename field "combo"(‰™¿êüÿÿÿÿ

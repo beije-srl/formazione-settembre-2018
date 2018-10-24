@@ -1,0 +1,38 @@
+
+Rsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+isquid:S1192"ODefine a constant instead of duplicating this literal "CON RISULTATO " 3 times.(Ê»Ûşÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(öµå“ùÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì˜»
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÃşÖüÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(İ§ĞÈ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(İ§ĞÈ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ¹Åùÿÿÿÿ
+r
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áÕ»Úûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(àæ‹¾ûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(©‰ò½
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô½ü¯øÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ê»Ûşÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷îÍ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ê»Ûşÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(©‰ò½
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô½ü¯øÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ê»Ûşÿÿÿÿ
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(±ºı
+Isquid:S1481"/Remove this unused "candidates" local variable.(ÃşÖüÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(¡şÏÖøÿÿÿÿ
+hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ÿ‡±ûÿÿÿÿ
+>squid:S2140")Use "java.util.Random.nextInt()" instead.(Ñİø±
+>squid:S2140")Use "java.util.Random.nextInt()" instead.(Ñİø±
+Xsquid:S1854">Remove this useless assignment to local variable "candidates".(ÃşÖüÿÿÿÿ
